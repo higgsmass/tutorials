@@ -1,19 +1,18 @@
 
+<h1> Slack Demo </h1>
+Tutorial on setting up and using a slack integration and analyzing data collected using existing integrations to a channel such as Zabbix.  
+
+
 Author: Venkat Kaushik
-=======
 
 Created: May 8, 2019
-========
 
-Presentation Link: 
-==================
+Presentation Link (Duration 40 mins) 
+
 https://web.microsoftstream.com/video/c71da57e-a6d2-475c-9980-59199b160904
 
-Duration: ~40 mins
----------
+<h2> Pre-requisites </h2>
 
-Pre-requisites
-==============
 
 * Install Jupyter Notebook
 
@@ -23,9 +22,7 @@ Pre-requisites
 https://pypi.org/project/slackclient/
 
 
-If you need to setup new app use the link below and sign in with your account information. 
-You may request your app to be published. Setup app permissions, OAuth tokens and use that token to create app instance
-   https://api.slack.com/apps 
+<p> If you need to setup new app use the link below and sign in with your account information. You may request your app to be published. Setup app permissions, OAuth tokens and use that token to create app instance https://api.slack.com/apps  </p>
 
 * References: 
 
