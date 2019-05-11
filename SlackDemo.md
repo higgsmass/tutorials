@@ -19,8 +19,14 @@ https://web.microsoftstream.com/video/c71da57e-a6d2-475c-9980-59199b160904
    https://jupyter.readthedocs.io/en/latest/install.html
 
 * Install Slack Client
+
 https://pypi.org/project/slackclient/
 
+* Install Pandas
+
+https://pandas.pydata.org/
+
+---
 
 <p> If you need to setup new app use the link below and sign in with your account information. You may request your app to be published. Setup app permissions, OAuth tokens and use that token to create app instance https://api.slack.com/apps  </p>
 
@@ -32,22 +38,28 @@ https://pypi.org/project/slackclient/
   * Building Great Slack Integration
      http://www.heyupdate.com/blog/building-a-slack-integration/
 
-Libraries we are going to need
-------------------------------
+Libraries
+---------
+
 
 ```python
 import os
 import slack
 import pprint
 from datetime import datetime, timedelta
-from pandas.io.json import json_normalize## environment variable needed to use SLACK API's
-print( os.environ['SLACK_API_TOKEN_BOT'][0:5], os.environ['SLACK_API_TOKEN_USER'][0:5])    
+from pandas.io.json import json_normalize  
+
 ```
 
 ```python
+
+print( os.environ['SLACK_API_TOKEN_BOT'][0:5], os.environ['SLACK_API_TOKEN_USER'][0:5])    
+
 ## instantiate a client using the API token
+
 clbot = slack.WebClient(token=os.environ['SLACK_API_TOKEN_BOT'])
 clusr = slack.WebClient(token=os.environ['SLACK_API_TOKEN_USER'])
+
 pprint.pprint (dir(clbot)[-140:-1])
 ```
 
