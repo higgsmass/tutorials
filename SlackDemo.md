@@ -34,13 +34,17 @@ https://api.slack.com/methods/chat.postMessage
   * Building Great Slack Integration
 http://www.heyupdate.com/blog/building-a-slack-integration/
 
-## libraries we are going to need
+Libraries we are going to need
+------------------------------
+
+```python
 import os
 import slack
 import pprint
 from datetime import datetime, timedelta
 from pandas.io.json import json_normalize## environment variable needed to use SLACK API's
-print( os.environ['SLACK_API_TOKEN_BOT'][0:5], os.environ['SLACK_API_TOKEN_USER'][0:5])                              
+print( os.environ['SLACK_API_TOKEN_BOT'][0:5], os.environ['SLACK_API_TOKEN_USER'][0:5])    
+```
 
 ```python
 ## instantiate a client using the API token
