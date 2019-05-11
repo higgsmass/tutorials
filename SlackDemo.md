@@ -1,24 +1,34 @@
 
 Author: Venkat Kaushik
+-------
 Created On: May 8, 2019
+-----------
 Presentation Link: https://web.microsoftstream.com/video/c71da57e-a6d2-475c-9980-59199b160904
+------------------
+
 Duration: ~40 mins
+---------
 
 Pre-requisites
-Install Jupyter Notebook:
+==============
+
+* Install Jupyter Notebook
+
 https://jupyter.readthedocs.io/en/latest/install.html
 
-Install Slack Client
+* Install Slack Client
 https://pypi.org/project/slackclient/
 
 If you need to setup new app use the link below and sign in with your account information. 
 You may request your app to be published 
 https://api.slack.com/apps 
 
-References: Slack API methods
+* References: 
+
+  * Slack API methods
 https://api.slack.com/methods/chat.postMessage
 
-Building Great Slack Integration
+  * Building Great Slack Integration
 http://www.heyupdate.com/blog/building-a-slack-integration/
 
 ## libraries we are going to need
