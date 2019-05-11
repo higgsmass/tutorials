@@ -51,9 +51,8 @@ pprint.pprint (dir(clbot)[-140:-1])
 
 
 ```python
-#response = clusr.chat_postMessage(channel='D47LFTQMV', text = " :wave: hi")
-#assert(response['ok'])
 response = clbot.chat_postMessage(channel='#noise_scraper_test', text = "hi")
+assert(response['ok'])
 ```
 
 
