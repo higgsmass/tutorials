@@ -17,22 +17,23 @@ Pre-requisites
 
 * Install Jupyter Notebook
 
-https://jupyter.readthedocs.io/en/latest/install.html
+   https://jupyter.readthedocs.io/en/latest/install.html
 
 * Install Slack Client
 https://pypi.org/project/slackclient/
 
+
 If you need to setup new app use the link below and sign in with your account information. 
-You may request your app to be published 
-https://api.slack.com/apps 
+You may request your app to be published. Setup app permissions, OAuth tokens and use that token to create app instance
+   https://api.slack.com/apps 
 
 * References: 
 
   * Slack API methods
-https://api.slack.com/methods/chat.postMessage
+     https://api.slack.com/methods/chat.postMessage
 
   * Building Great Slack Integration
-http://www.heyupdate.com/blog/building-a-slack-integration/
+     http://www.heyupdate.com/blog/building-a-slack-integration/
 
 Libraries we are going to need
 ------------------------------
